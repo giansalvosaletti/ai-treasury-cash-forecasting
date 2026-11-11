@@ -1,0 +1,8 @@
+flow_id,entity_id,account_id,value_date,amount,currency,category,status,scenario
+F001,E001,A001,2026-11-06,-30000,EUR,Supplier payment,Committed,Base
+F002,E001,A001,2026-11-07,80000,EUR,Customer receipt,Committed,Base
+F003,E001,A001,2026-11-08,-3000000,EUR,Debt repayment,Committed,Base
+F004,E001,A002,2026-11-09,50000,USD,Customer receipt,Forecast,Base
+F005,E002,A003,2026-11-07,-200000,AED,Supplier payment,Committed,Base
+F006,E002,A003,2026-11-10,100000,AED,Customer receipt,Forecast,Base
+F007,E003,A004,2026-11-08,-180000,USD,Customer paymeny,Forecast,Base
