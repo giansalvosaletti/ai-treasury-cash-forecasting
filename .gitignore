@@ -179,3 +179,31 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Backups
+Backup/
+Old/
+*.bak
+backup_*.txt
+
+# Generated outputs
+outputs/
+
+# Test datasets
+data_test*/
