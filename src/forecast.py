@@ -24,7 +24,7 @@ def previous_business_day(date):
 # --------------------------------------------------
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = PROJECT_DIR / "data_test"
+DATA_DIR = PROJECT_DIR / "data"
 
 # --------------------------------------------------
 # 2. Caricamento dei dati

@@ -21,7 +21,7 @@ st.caption(
 )
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = PROJECT_DIR / "data_test"
+DATA_DIR = PROJECT_DIR / "data"
 FORECAST_SCRIPT = PROJECT_DIR / "src" / "forecast.py"
 
 INPUT_FILES = {
@@ -41,7 +41,7 @@ DATE_COLUMNS = {
 
 @st.cache_data
 def load_input_data(filename: str) -> pd.DataFrame:
-    """Read one input CSV from the project's data_test folder."""
+    """input CSV from the project's data folder."""
     return pd.read_csv(DATA_DIR / filename)
 
 
