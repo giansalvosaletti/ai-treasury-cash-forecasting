@@ -1,0 +1,6 @@
+account_id,entity_id,bank_name,currency,account_type
+A001,E001,Demo Bank Europe,EUR,Operating
+A002,E001,Demo Bank Europe,USD,Operating
+A003,E002,Demo Bank UAE,AED,Operating
+A004,E003,Demo Bank US,USD,Operating
+A005,E003,Demo Bank US,GBP,Operating
